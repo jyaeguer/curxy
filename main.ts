@@ -25,7 +25,7 @@ const command = define({
     openaiEndpoint: {
       type: "custom",
       alias: "o",
-      default: "https://api.openai.com",
+      default: "http://localhost:8080",
       description: "The endpoint to OpenAI server.",
       parse: validateURL,
     },
